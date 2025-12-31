@@ -1,5 +1,5 @@
 # Stereo Matching using Dynamic Programming (Optimized)
-An optimized Matlab implementation of Dynamic Programming for stereo matching that **focuses on speed** with a small improvement for better results. It uses matrix operations and other techniques to make the program run even faster.
+An optimized Matlab implementation of Dynamic Programming for stereo matching that **focuses on speed**. It uses matrix operations and other techniques to make the program run even faster. In addition, this method gives better results.
 
 ## Input Image
 The Tsukuba stereo image that used as input.
