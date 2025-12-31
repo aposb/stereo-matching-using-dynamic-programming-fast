@@ -30,7 +30,6 @@ dispMap = zeros(rows,cols);
 
 % Forward step
 for y = 1:rows
-    D(y,1,:) = C(y,1,:);
     for x = 2:cols
         cost = squeeze(C(y,x-1,:)+D(y,x-1,:));
         [cost,ind] = min(cost+smoothnessCost);
@@ -57,3 +56,4 @@ imshow(dispImage)
 
 % Save disparity image
 imwrite(dispImage,'Disparity.png')
+
