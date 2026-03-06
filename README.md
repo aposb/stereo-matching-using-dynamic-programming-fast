@@ -1,4 +1,9 @@
 # Stereo Matching using Dynamic Programming (Optimized)
+
+> **Repository Moved**  
+> This project has been merged into [Stereo Matching Algorithms in MATLAB and Python](https://github.com/aposb/stereo-matching-algorithms).  
+> The new repository contains the latest code, documentation, and updates.
+
 An optimized Matlab implementation of Dynamic Programming for stereo matching that **focuses on speed**. It uses matrix operations and other techniques to make the program run faster. In addition, this method seems to have better results.
 
 For a more optimized version look at here: https://github.com/bollasap/stereo-matching-using-dynamic-programming-left-disparity/
